@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "portfoliyo",
+    "slug": "portfoliyo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/bg.jpg",
+    "scheme": "portfoliyo",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/bg.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sneh2002.portfoliyo"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/bg.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/bg.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "owner": "sneh2002",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1eae759b-06df-4995-95f4-7b29bb85785a"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1eae759b-06df-4995-95f4-7b29bb85785a"
+      }
+    }
+  }
+}
